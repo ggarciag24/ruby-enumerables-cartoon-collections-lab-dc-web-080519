@@ -22,7 +22,7 @@ def long_planeteer_calls(source_array)
 end
 
 def find_the_cheese(source_array)
-  source_array.include?("cheddar")
+  source_array.include?("cheddar", "gouda", "camembert")
     
  
       
