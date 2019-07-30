@@ -11,15 +11,15 @@ def summon_captain_planet(source_array)
     new.map {|name|  "#{name}!"}
 end
 
-# def long_planeteer_calls(source_array)
-#     source_array.map {|word| 
-#       if word.length < 4 
-#         return true
-#       else
-#         return false
-#       end
-#     }
-# end
+def long_planeteer_calls(source_array)
+    source_array.map {|word| 
+      if word.length < 4 
+        return true
+      else
+        return false
+      end
+    }
+end
 
 # def find_the_cheese(source_array)
 #     cheese_types = ["cheddar", "gouda", "camembert"]
