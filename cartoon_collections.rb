@@ -6,10 +6,10 @@
   end
 end
 
-# def summon_captain_planet(source_array)
-#     new = source_array.map {|name| name.capitalize}
-#     new.map {|name|  "#{name}!"}
-# end
+def summon_captain_planet(source_array)
+    new = source_array.map {|name| name.capitalize}
+    new.map {|name|  "#{name}!"}
+end
 
 # def long_planeteer_calls(source_array)
 #     source_array.map {|word| 
