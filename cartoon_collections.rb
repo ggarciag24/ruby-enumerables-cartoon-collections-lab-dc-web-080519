@@ -25,6 +25,7 @@ def find_the_cheese(source_array)
   
   if source_array.include?("cheddar") == true
     return "cheddar"
+    binding.pry
   else if source_array.include?("gouda") == true
     return "gouda"
   else
