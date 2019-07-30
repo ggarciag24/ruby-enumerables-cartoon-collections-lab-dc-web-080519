@@ -24,7 +24,7 @@ end
 def find_the_cheese(source_array)
   
     cheese_types = ["cheddar", "gouda", "camembert"]
-    source_array.find {|item| item == "cheddar" || item == "gouda" || item == "camembert"}
+    source_array.find {}
       binding.pry
       
 end
