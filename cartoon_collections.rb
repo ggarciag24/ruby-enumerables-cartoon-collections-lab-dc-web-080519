@@ -5,12 +5,12 @@
       puts "#{index + 1} #{item}"
   end
 end
-
+binding.pry
 def summon_captain_planet(source_array)
     new = source_array.map {|name| name.capitalize}
     new.map {|name|  "#{name}!"}
 end
-binding.pry
+
 def long_planeteer_calls(source_array)
     source_array.map {|word| 
       if word.length < 4 
