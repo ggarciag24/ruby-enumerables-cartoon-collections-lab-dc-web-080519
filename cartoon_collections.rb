@@ -22,8 +22,8 @@ def long_planeteer_calls(source_array)
 end
 binding.pry
 def find_the_cheese(source_array)
-    # cheese_types = ["cheddar", "gouda", "camembert"]
-    source_array.each do |item|
+    cheese_types = ["cheddar", "gouda", "camembert"]
+    # source_array.each do |item|
       # if item == "cheddar"
       #   return "cheddar"
       # else if item == "gouda"
