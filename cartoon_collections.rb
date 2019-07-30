@@ -28,13 +28,7 @@ def find_the_cheese(source_array)
     source_array.each do |item|
       if item == "cheddar"
         return "cheddar"
-      else if item == "gouda"
-        return "gouda"
-      else if item == "camembert"
-        return "camembert"
-      else
-        return nil
+      
     end
-  end
 end
-end
+
