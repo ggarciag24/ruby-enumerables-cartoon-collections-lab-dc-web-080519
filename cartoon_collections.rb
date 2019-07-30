@@ -25,14 +25,15 @@ def find_the_cheese(source_array)
   
     cheese_types = ["cheddar", "gouda", "camembert"]
     binding.pry
-    # source_array.each do |item|
-      # if item == "cheddar"
-      #   return "cheddar"
-      # else if item == "gouda"
-      #   return "gouda"
-      # else if item == "camembert"
-      #   return "camembert"
-      # else
-      #   return nil
-      
+    source_array.each do |item|
+      if item == "cheddar"
+        return "cheddar"
+      else if item == "gouda"
+        return "gouda"
+      else if item == "camembert"
+        return "camembert"
+      else
+        return nil
+    end
+  end
 end
