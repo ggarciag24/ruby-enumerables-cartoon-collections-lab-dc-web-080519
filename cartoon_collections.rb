@@ -24,9 +24,7 @@ end
 def find_the_cheese(source_array)
   
     cheese_types = ["cheddar", "gouda", "camembert"]
-    source_array. do |item|
-      if item == "cheddar"
-        return "cheddar"
+    source_array.find {|i| }
       binding.pry
       
     end
