@@ -28,7 +28,5 @@ def find_the_cheese(source_array)
     }
       binding.pry
       
-    end
-    end
 end
 
