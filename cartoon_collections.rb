@@ -24,8 +24,8 @@ end
 def find_the_cheese(source_array)
   
     cheese_types = ["cheddar", "gouda", "camembert"]
-    binding.pry
     source_array.each do |item|
+      binding.pry
       
     end
 end
